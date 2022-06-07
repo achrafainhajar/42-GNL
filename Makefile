@@ -22,6 +22,6 @@ clean :
 bonus : $(OBJB)
 
 fclean : clean
-	echo "hahhahaa"	rm -rf $(NAME)
+	rm -rf $(NAME)
 
 re : fclean all
